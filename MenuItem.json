@@ -1,0 +1,626 @@
+[
+  {
+    "id": 1,
+    "id_menu_id": 1,
+    "menu_name": "space",
+    "name": "Вселенная",
+    "owner_id_id": null,
+    "owner_name": ""
+  },
+  {
+    "id": 2,
+    "id_menu_id": 1,
+    "menu_name": "space",
+    "name": "Галактики",
+    "owner_id_id": 1,
+    "owner_name": "Вселенная"
+  },
+  {
+    "id": 3,
+    "id_menu_id": 1,
+    "menu_name": "space",
+    "name": "Млечный путь",
+    "owner_id_id": 2,
+    "owner_name": "Галактики"
+  },
+  {
+    "id": 4,
+    "id_menu_id": 1,
+    "menu_name": "space",
+    "name": "Андромеда",
+    "owner_id_id": 2,
+    "owner_name": "Галактики"
+  },
+  {
+    "id": 5,
+    "id_menu_id": 1,
+    "menu_name": "space",
+    "name": "Треугольник",
+    "owner_id_id": 2,
+    "owner_name": "Галактики"
+  },
+  {
+    "id": 6,
+    "id_menu_id": 1,
+    "menu_name": "space",
+    "name": "Солнечная система",
+    "owner_id_id": 1,
+    "owner_name": "Вселенная"
+  },
+  {
+    "id": 7,
+    "id_menu_id": 1,
+    "menu_name": "space",
+    "name": "Солнце",
+    "owner_id_id": 6,
+    "owner_name": "Солнечная система"
+  },
+  {
+    "id": 8,
+    "id_menu_id": 1,
+    "menu_name": "space",
+    "name": "Планеты",
+    "owner_id_id": 6,
+    "owner_name": "Солнечная система"
+  },
+  {
+    "id": 9,
+    "id_menu_id": 1,
+    "menu_name": "space",
+    "name": "Меркурий",
+    "owner_id_id": 8,
+    "owner_name": "Планеты"
+  },
+  {
+    "id": 10,
+    "id_menu_id": 1,
+    "menu_name": "space",
+    "name": "Венера",
+    "owner_id_id": 8,
+    "owner_name": "Планеты"
+  },
+  {
+    "id": 11,
+    "id_menu_id": 1,
+    "menu_name": "space",
+    "name": "Земля",
+    "owner_id_id": 8,
+    "owner_name": "Планеты"
+  },
+  {
+    "id": 12,
+    "id_menu_id": 1,
+    "menu_name": "space",
+    "name": "Марс",
+    "owner_id_id": 8,
+    "owner_name": "Планеты"
+  },
+  {
+    "id": 13,
+    "id_menu_id": 1,
+    "menu_name": "space",
+    "name": "Юпитер",
+    "owner_id_id": 8,
+    "owner_name": "Планеты"
+  },
+  {
+    "id": 14,
+    "id_menu_id": 1,
+    "menu_name": "space",
+    "name": "Сатурн",
+    "owner_id_id": 8,
+    "owner_name": "Планеты"
+  },
+  {
+    "id": 15,
+    "id_menu_id": 1,
+    "menu_name": "space",
+    "name": "Уран",
+    "owner_id_id": 8,
+    "owner_name": "Планеты"
+  },
+  {
+    "id": 16,
+    "id_menu_id": 1,
+    "menu_name": "space",
+    "name": "Нептун",
+    "owner_id_id": 8,
+    "owner_name": "Планеты"
+  },
+  {
+    "id": 17,
+    "id_menu_id": 1,
+    "menu_name": "space",
+    "name": "Другие небесные объекты",
+    "owner_id_id": 6,
+    "owner_name": "Солнечная система"
+  },
+  {
+    "id": 18,
+    "id_menu_id": 1,
+    "menu_name": "space",
+    "name": "Луна",
+    "owner_id_id": 17,
+    "owner_name": "Другие небесные объекты"
+  },
+  {
+    "id": 19,
+    "id_menu_id": 1,
+    "menu_name": "space",
+    "name": "Астероиды",
+    "owner_id_id": 17,
+    "owner_name": "Другие небесные объекты"
+  },
+  {
+    "id": 20,
+    "id_menu_id": 1,
+    "menu_name": "space",
+    "name": "Кометы",
+    "owner_id_id": 17,
+    "owner_name": "Другие небесные объекты"
+  },
+  {
+    "id": 21,
+    "id_menu_id": 1,
+    "menu_name": "space",
+    "name": "Звезды",
+    "owner_id_id": 1,
+    "owner_name": "Вселенная"
+  },
+  {
+    "id": 22,
+    "id_menu_id": 1,
+    "menu_name": "space",
+    "name": "Поясная звезда",
+    "owner_id_id": 21,
+    "owner_name": "Звезды"
+  },
+  {
+    "id": 23,
+    "id_menu_id": 1,
+    "menu_name": "space",
+    "name": "Красные гиганты",
+    "owner_id_id": 21,
+    "owner_name": "Звезды"
+  },
+  {
+    "id": 24,
+    "id_menu_id": 1,
+    "menu_name": "space",
+    "name": "Белые карлики",
+    "owner_id_id": 21,
+    "owner_name": "Звезды"
+  },
+  {
+    "id": 25,
+    "id_menu_id": 1,
+    "menu_name": "space",
+    "name": "Межзвездное пространство",
+    "owner_id_id": 1,
+    "owner_name": "Вселенная"
+  },
+  {
+    "id": 26,
+    "id_menu_id": 1,
+    "menu_name": "space",
+    "name": "Пылевые облака",
+    "owner_id_id": 25,
+    "owner_name": "Межзвездное пространство"
+  },
+  {
+    "id": 27,
+    "id_menu_id": 1,
+    "menu_name": "space",
+    "name": "Звездные скопления",
+    "owner_id_id": 25,
+    "owner_name": "Межзвездное пространство"
+  },
+  {
+    "id": 28,
+    "id_menu_id": 1,
+    "menu_name": "space",
+    "name": "Галактические скопления",
+    "owner_id_id": 25,
+    "owner_name": "Межзвездное пространство"
+  },
+  {
+    "id": 29,
+    "id_menu_id": 2,
+    "menu_name": "alps",
+    "name": "Альпы",
+    "owner_id_id": null,
+    "owner_name": ""
+  },
+  {
+    "id": 30,
+    "id_menu_id": 2,
+    "menu_name": "alps",
+    "name": "Западные Альпы",
+    "owner_id_id": 29,
+    "owner_name": "Альпы"
+  },
+  {
+    "id": 31,
+    "id_menu_id": 2,
+    "menu_name": "alps",
+    "name": "Центральные Альпы",
+    "owner_id_id": 29,
+    "owner_name": "Альпы"
+  },
+  {
+    "id": 32,
+    "id_menu_id": 2,
+    "menu_name": "alps",
+    "name": "Восточные Альпы",
+    "owner_id_id": 29,
+    "owner_name": "Альпы"
+  },
+  {
+    "id": 33,
+    "id_menu_id": 2,
+    "menu_name": "alps",
+    "name": "Французские Альпы",
+    "owner_id_id": 30,
+    "owner_name": "Западные Альпы"
+  },
+  {
+    "id": 34,
+    "id_menu_id": 2,
+    "menu_name": "alps",
+    "name": "Швейцарские Альпы",
+    "owner_id_id": 30,
+    "owner_name": "Западные Альпы"
+  },
+  {
+    "id": 35,
+    "id_menu_id": 2,
+    "menu_name": "alps",
+    "name": "Итальянские Альпы",
+    "owner_id_id": 30,
+    "owner_name": "Западные Альпы"
+  },
+  {
+    "id": 36,
+    "id_menu_id": 2,
+    "menu_name": "alps",
+    "name": "Альпийская дуга",
+    "owner_id_id": 31,
+    "owner_name": "Центральные Альпы"
+  },
+  {
+    "id": 37,
+    "id_menu_id": 2,
+    "menu_name": "alps",
+    "name": "Северные Альпы",
+    "owner_id_id": 36,
+    "owner_name": "Альпийская дуга"
+  },
+  {
+    "id": 38,
+    "id_menu_id": 2,
+    "menu_name": "alps",
+    "name": "Южные Альпы",
+    "owner_id_id": 36,
+    "owner_name": "Альпийская дуга"
+  },
+  {
+    "id": 39,
+    "id_menu_id": 2,
+    "menu_name": "alps",
+    "name": "Австрийские Альпы",
+    "owner_id_id": 32,
+    "owner_name": "Восточные Альпы"
+  },
+  {
+    "id": 40,
+    "id_menu_id": 2,
+    "menu_name": "alps",
+    "name": "Словенские Альпы",
+    "owner_id_id": 32,
+    "owner_name": "Восточные Альпы"
+  },
+  {
+    "id": 41,
+    "id_menu_id": 2,
+    "menu_name": "alps",
+    "name": "Баварские Альпы",
+    "owner_id_id": 32,
+    "owner_name": "Восточные Альпы"
+  },
+  {
+    "id": 42,
+    "id_menu_id": 3,
+    "menu_name": "musical styles",
+    "name": "Классическая музыка",
+    "owner_id_id": null,
+    "owner_name": ""
+  },
+  {
+    "id": 43,
+    "id_menu_id": 3,
+    "menu_name": "musical styles",
+    "name": "Барокко",
+    "owner_id_id": 42,
+    "owner_name": "Классическая музыка"
+  },
+  {
+    "id": 44,
+    "id_menu_id": 3,
+    "menu_name": "musical styles",
+    "name": "Романтизм",
+    "owner_id_id": 42,
+    "owner_name": "Классическая музыка"
+  },
+  {
+    "id": 45,
+    "id_menu_id": 3,
+    "menu_name": "musical styles",
+    "name": "Модернизм",
+    "owner_id_id": 42,
+    "owner_name": "Классическая музыка"
+  },
+  {
+    "id": 46,
+    "id_menu_id": 3,
+    "menu_name": "musical styles",
+    "name": "Рок",
+    "owner_id_id": null,
+    "owner_name": ""
+  },
+  {
+    "id": 47,
+    "id_menu_id": 3,
+    "menu_name": "musical styles",
+    "name": "Альтернативный рок",
+    "owner_id_id": 46,
+    "owner_name": "Рок"
+  },
+  {
+    "id": 48,
+    "id_menu_id": 3,
+    "menu_name": "musical styles",
+    "name": "Гранж",
+    "owner_id_id": 47,
+    "owner_name": "Альтернативный рок"
+  },
+  {
+    "id": 49,
+    "id_menu_id": 3,
+    "menu_name": "musical styles",
+    "name": "Инди-рок",
+    "owner_id_id": 47,
+    "owner_name": "Альтернативный рок"
+  },
+  {
+    "id": 50,
+    "id_menu_id": 3,
+    "menu_name": "musical styles",
+    "name": "Инди-поп",
+    "owner_id_id": 49,
+    "owner_name": "Инди-рок"
+  },
+  {
+    "id": 51,
+    "id_menu_id": 3,
+    "menu_name": "musical styles",
+    "name": "Инди-фолк",
+    "owner_id_id": 49,
+    "owner_name": "Инди-рок"
+  },
+  {
+    "id": 52,
+    "id_menu_id": 3,
+    "menu_name": "musical styles",
+    "name": "Метал",
+    "owner_id_id": null,
+    "owner_name": ""
+  },
+  {
+    "id": 53,
+    "id_menu_id": 3,
+    "menu_name": "musical styles",
+    "name": "Пауэр-метал",
+    "owner_id_id": 52,
+    "owner_name": "Метал"
+  },
+  {
+    "id": 54,
+    "id_menu_id": 3,
+    "menu_name": "musical styles",
+    "name": "Трэш-метал",
+    "owner_id_id": 52,
+    "owner_name": "Метал"
+  },
+  {
+    "id": 55,
+    "id_menu_id": 3,
+    "menu_name": "musical styles",
+    "name": "Дэт-метал",
+    "owner_id_id": 52,
+    "owner_name": "Метал"
+  },
+  {
+    "id": 56,
+    "id_menu_id": 3,
+    "menu_name": "musical styles",
+    "name": "Панк-рок",
+    "owner_id_id": null,
+    "owner_name": ""
+  },
+  {
+    "id": 57,
+    "id_menu_id": 3,
+    "menu_name": "musical styles",
+    "name": "Гаражный панк",
+    "owner_id_id": 56,
+    "owner_name": "Панк-рок"
+  },
+  {
+    "id": 58,
+    "id_menu_id": 3,
+    "menu_name": "musical styles",
+    "name": "Поп-панк",
+    "owner_id_id": 56,
+    "owner_name": "Панк-рок"
+  },
+  {
+    "id": 59,
+    "id_menu_id": 3,
+    "menu_name": "musical styles",
+    "name": "Хардкор панк",
+    "owner_id_id": 56,
+    "owner_name": "Панк-рок"
+  },
+  {
+    "id": 60,
+    "id_menu_id": 4,
+    "menu_name": "railway",
+    "name": "Железнодорожные системы",
+    "owner_id_id": null,
+    "owner_name": ""
+  },
+  {
+    "id": 61,
+    "id_menu_id": 4,
+    "menu_name": "railway",
+    "name": "Пассажирские поезда",
+    "owner_id_id": 60,
+    "owner_name": "Железнодорожные системы"
+  },
+  {
+    "id": 62,
+    "id_menu_id": 4,
+    "menu_name": "railway",
+    "name": "Местные поезда",
+    "owner_id_id": 61,
+    "owner_name": "Пассажирские поезда"
+  },
+  {
+    "id": 63,
+    "id_menu_id": 4,
+    "menu_name": "railway",
+    "name": "Дальние поезда",
+    "owner_id_id": 61,
+    "owner_name": "Пассажирские поезда"
+  },
+  {
+    "id": 64,
+    "id_menu_id": 4,
+    "menu_name": "railway",
+    "name": "Скоростные поезда",
+    "owner_id_id": 61,
+    "owner_name": "Пассажирские поезда"
+  },
+  {
+    "id": 65,
+    "id_menu_id": 4,
+    "menu_name": "railway",
+    "name": "Международные поезда",
+    "owner_id_id": 61,
+    "owner_name": "Пассажирские поезда"
+  },
+  {
+    "id": 66,
+    "id_menu_id": 4,
+    "menu_name": "railway",
+    "name": "Грузовые поезда",
+    "owner_id_id": 60,
+    "owner_name": "Железнодорожные системы"
+  },
+  {
+    "id": 67,
+    "id_menu_id": 4,
+    "menu_name": "railway",
+    "name": "Инфраструктура железной дороги",
+    "owner_id_id": null,
+    "owner_name": ""
+  },
+  {
+    "id": 68,
+    "id_menu_id": 4,
+    "menu_name": "railway",
+    "name": "Рельсы",
+    "owner_id_id": 67,
+    "owner_name": "Инфраструктура железной дороги"
+  },
+  {
+    "id": 69,
+    "id_menu_id": 4,
+    "menu_name": "railway",
+    "name": "Шпалы",
+    "owner_id_id": 67,
+    "owner_name": "Инфраструктура железной дороги"
+  },
+  {
+    "id": 70,
+    "id_menu_id": 4,
+    "menu_name": "railway",
+    "name": "Балласт",
+    "owner_id_id": 67,
+    "owner_name": "Инфраструктура железной дороги"
+  },
+  {
+    "id": 71,
+    "id_menu_id": 4,
+    "menu_name": "railway",
+    "name": "Пути",
+    "owner_id_id": 67,
+    "owner_name": "Инфраструктура железной дороги"
+  },
+  {
+    "id": 72,
+    "id_menu_id": 4,
+    "menu_name": "railway",
+    "name": "Тоннели",
+    "owner_id_id": 67,
+    "owner_name": "Инфраструктура железной дороги"
+  },
+  {
+    "id": 73,
+    "id_menu_id": 4,
+    "menu_name": "railway",
+    "name": "Мосты",
+    "owner_id_id": 67,
+    "owner_name": "Инфраструктура железной дороги"
+  },
+  {
+    "id": 74,
+    "id_menu_id": 4,
+    "menu_name": "railway",
+    "name": "Связь и сигнализация",
+    "owner_id_id": null,
+    "owner_name": ""
+  },
+  {
+    "id": 75,
+    "id_menu_id": 4,
+    "menu_name": "railway",
+    "name": "Системы связи",
+    "owner_id_id": 74,
+    "owner_name": "Связь и сигнализация"
+  },
+  {
+    "id": 76,
+    "id_menu_id": 4,
+    "menu_name": "railway",
+    "name": "Сигнальные системы",
+    "owner_id_id": 74,
+    "owner_name": "Связь и сигнализация"
+  },
+  {
+    "id": 77,
+    "id_menu_id": 4,
+    "menu_name": "railway",
+    "name": "Блок-посты",
+    "owner_id_id": 74,
+    "owner_name": "Связь и сигнализация"
+  },
+  {
+    "id": 78,
+    "id_menu_id": 4,
+    "menu_name": "railway",
+    "name": "Радиосвязь",
+    "owner_id_id": 74,
+    "owner_name": "Связь и сигнализация"
+  }
+]
