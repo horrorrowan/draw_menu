@@ -19,23 +19,35 @@ def draw_menu(context, menu_name):
                 return False
         return True
 
+    def get_next(id, base):
+        for i in base:
+            try:
+                if str(i.owner_id.id) == str(id):
+                    return False
+            except AttributeError:
+                pass
+        return True
+
+
+
     # Функция для получения словаря данных, готовое меню
     def get_owner(id, owner, db):
         result = {}
         for i in db:
             if i.owner_name == owner:
+                next = get_next(i.id, db)
                 result[i.name] = {'url': f'{id}/{i.id}',
                                   'name': i.name, 'id_menu': i.id_menu.id,
-                                  'dict': ''}
+                                  'dict': '', 'end': next}
         return result
 
     # Функция для получения меню
     def get_menu(req, base):
         owner = get_owner('', '', base)
         end = owner
-        for i in req:
+        for q in base:
             try:
-                for q in base:
+                for k, i in enumerate(req):
                     if not req == [''] and int(i) == int(q.id):
                         _ = end[q.name]
                         end[q.name]['dict'] = get_owner(end[q.name]['url'], q.name, base)
@@ -48,10 +60,15 @@ def draw_menu(context, menu_name):
     def get_data(data):
         text = "<ul>"
         for k, v in data.items():
-            text += "<li><a href='/menu/{}{}'>{}</a>".format(v['id_menu'], v['url'], v['name'])
+            if not v['end']:
+                text += (f"<li><a href='/menu/{v['id_menu']}{v['url']}"
+                         f"'>{v['name']}</a>")
+            else:
+                text += (f"<li><b>{v['name']}</b>")
+
+
             if isinstance(v['dict'], dict):
                 text += get_data(v['dict'])
-
             text += '</li>'
         text += '</ul>'
         return text
