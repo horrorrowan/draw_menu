@@ -7,7 +7,7 @@ register = template.Library()
 
 # Регистрируем новый шаблонный тег
 @register.simple_tag(takes_context=True)
-def render_dict(context, data):
+def draw_menu(context, data):
    # Получаем уровни URL
    levels = context['request'].META['PATH_INFO'].split('/')[2:]
    levels = [i for i in levels if i != '']
