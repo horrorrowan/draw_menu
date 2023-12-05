@@ -6,7 +6,7 @@
 
 ```python manage.py migrate --run-syncdb```
 
-### Создайте пользователя ROOT:
+### Создайте пользователя:
 
 ```python manage.py createsuperuser```
 
